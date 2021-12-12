@@ -1,0 +1,31 @@
+
+h1 {
+    font-family: Microsoft JhengHei;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    color: #422020;
+}
+intro {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: #FFF;
+    font-family: DFKai-sb;
+    color: #422020;
+    font-size: 20px;
+    line-height: 150%;
+}
+filed {
+    font-family: Microsoft JhengHei;
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: #422020;
+   line-height: 30px;
+}
+p {
+    font-family: Microsoft JhengHei;
+    text-align:center;
+    font-size: 12px;
+    font-weight: normal;
+    }

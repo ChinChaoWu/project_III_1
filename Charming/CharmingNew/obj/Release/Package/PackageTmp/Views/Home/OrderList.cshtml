@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "OrderList";
+
+}
+
+
+<div class=" container" style="padding-top:50px">
+
+
+
+    <form class="form-horizontal"  action="~/">
+        <fieldset>
+
+            <!-- Form Name -->
+            <span>
+                <oo style="color:crimson;font-size:20px">您的訂購已完成! </oo>
+                <br/>
+                <h2>訂購資訊如下 </h2>
+            </span>
+            <!-- Text input-->
+            <div class="form-group">
+
+                <label class="col-md-4 control-label" for="E-mail">E-mail</label>
+                <div class="col-md-4">
+                    <label id="Email" name="Email" value="" />@ViewBag.p.Email
+
+                </div>
+
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="userName">姓名 / 公司</label>
+                <div class="col-md-4">
+                    <label id="OrderBy" name="OrderBy" value="" />@ViewBag.p.OrderBy
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Date">訂購日期</label>
+                <div class="col-md-4">
+                    <label id="OrderDate" name="OrderDate" value="" />@ViewBag.p.OrderDate
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="PackDate">交貨日期</label>
+                <div class="col-md-4">
+                    <label id="PackDate" name="PackDate" value="" />@ViewBag.p.PackDate
+
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Number">聯桌數量</label>
+                <div class="col-md-2">
+                    <label id="Number" name="Number" value="" />@ViewBag.p.Number
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="OrderId">訂單號碼</label>
+                <div class="col-md-4">
+                    <label id="OrderId" name="OrderId" value="" /> No. @ViewBag.p.OrderId
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" hidden></label>
+                <div class="col-md-4">
+                      <input id="OrderAgain" type="button"  value="再次訂購"  onclick="location.href='http://localhost:57260/Home/Order'"  /> 
+
+                </div>
+            </div>
+
+
+        </fieldset>
+    </form>
+</div>
